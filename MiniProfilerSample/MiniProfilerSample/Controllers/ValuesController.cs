@@ -9,10 +9,17 @@ using StackExchange.Profiling;
 
 namespace MiniProfilerSample.Controllers
 {
+    /// <summary>
+    /// Value Controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        /// <summary>
+        /// Get Api
+        /// </summary>
+        /// <returns></returns>
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()

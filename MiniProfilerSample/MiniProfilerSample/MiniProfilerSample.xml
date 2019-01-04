@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiniProfilerSample</name>
+    </assembly>
+    <members>
+        <member name="T:MiniProfilerSample.Controllers.ValuesController">
+            <summary>
+            Value Controller
+            </summary>
+        </member>
+        <member name="M:MiniProfilerSample.Controllers.ValuesController.Get">
+            <summary>
+            Get Api
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
